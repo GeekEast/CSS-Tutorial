@@ -1,0 +1,27 @@
+body {
+	font-family: 'Noto Sans', sans-serif;
+}
+
+h1 {
+	font-family: 'Noto Sans', sans-serif;
+	color: burlywood;
+}
+
+code {
+	font-family: inherit;
+	color: red;
+}
+
+.second-li code {
+	color: green;
+}
+
+.first-li ~ li {
+	color: white;
+	background: black;
+}
+
+ol li {
+	color: white;
+	background: black;
+}
